@@ -1,0 +1,124 @@
+<!doctype html>
+<html style="background-color: #f5f5f5; min-height: 100%;">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <title>Try Opal: Browser compiler and REPL</title>
+
+  <link href="/stylesheets/application.css" rel="stylesheet" />
+  <link href="http://code.ionicframework.com/ionicons/1.4.1/css/ionicons.min.css" rel="stylesheet" />
+  <script src="/javascripts/application.js"></script>
+</head>
+<body class="try try_index">
+  <nav class='navbar navbar-default opal-nav' role='navigation'>
+  <div class='container'>
+    <div class='navbar-header'>
+      <a class='navbar-brand' href='/'>
+        <img height='22' src='https://secure.gravatar.com/avatar/88298620949a6534d403da2e356c9339?s=420&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-org-420.png' style='margin-top:-10%;' width='22'>
+        Opal
+      </a>
+      <button class='navbar-toggle' data-target='#opal-navbar' data-toggle='collapse' type='button'>
+        <span class='icon-bar'></span>
+        <span class='icon-bar'></span>
+        <span class='icon-bar'></span>
+      </button>
+    </div>
+    <div class='navbar-collapse collapse' id='opal-navbar'>
+      <ul class='nav navbar-nav'>
+        <li>
+          <a href='/try'>
+            <i class='ion-ios7-compose'></i>
+            Try
+          </a>
+        </li>
+        <li>
+          <a href='/blog'>
+            <i class='ion-ios7-chatboxes'></i>
+            Blog
+          </a>
+        </li>
+        <li>
+          <a href='/docs'>
+            <i class='ion-ios7-copy'></i>
+            Documentation
+          </a>
+        </li>
+        <li>
+          <a href='/libraries'>
+            <i class='ion-android-developer'></i>
+            Libraries
+          </a>
+        </li>
+        <li>
+          <a href='https://github.com/opal/opal#readme'>
+            <i class='ion-social-github'></i>
+            GitHub
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <script>$('a[href="'+location.pathname.replace(/\/$/,'')+'"]').parent().addClass('active')</script>
+
+  <div class="container">
+    <link href="/stylesheets/codemirror.css" rel="stylesheet" />
+<script src="/javascripts/try.js"></script>
+<script>Opal.load('try_opal');</script>
+
+<div class="page-header"><h1>Try Opal in your browser!</h1></div>
+
+<div class="row" id="wrapper">
+  <div id="editor_wrapper" class="col-md-6">
+    <a href="#" id="run_code" class="btn btn-primary">Run (Cmd+Enter)</a>
+    <a href="#" id="link_code" class="btn">Link</a>
+    <p></p>
+    <div id="editor" class="well" style="padding:0"></div>
+  </div>
+  <div class="col-md-6">
+    <a href="#" class="btn disabled">Compiled Javascript</a>
+    <p></p>
+    <div id="viewer" class="well" style="padding:0">
+    </div>
+  </div>
+</div>
+
+<!-- output -->
+<div class="row" id="wrapper">
+  <div class="col-md-12">
+    <a href="#" class="btn disabled">Output</a>
+    <p></p>
+    <div id="output" class="well" style="padding:0">
+    </div>
+  </div>
+</div>
+
+
+  </div>
+
+  <!-- GOOGLE ANALYTICS -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35688734-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<footer>
+  <a href="/license"><i class="ion-unlocked"></i> License</a> ·
+  <a href="https://github.com/opal/opal/graphs/contributors"><i class="ion-fork-repo"></i> Contributors</a>
+</footer>
+
+
+  <script>
+    $('a[href="'+location.pathname.replace(/\/$/,'')+'"]').parent('li').addClass('active')
+  </script>
+</body>
+</html>
