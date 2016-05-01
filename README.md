@@ -1,5 +1,5 @@
-# Andradite.rb
-**Andradite.rb (airb)** features a 3-part ***"trimester"*** learning style that encourages the newcomers using the program to develop methods of study and practice that will help them to develop and create any type of application they wish. The program is designed to treat prospective coders as students to be taught and trained, and also offers plenty of hand-on and real life application for important programming concepts. The program has several tracks that are setup to help new coders learn exactly what they need to know to start developing the type of content that they want.
+#Andradite: Programming Jetpack!
+**Andradite.rb (ARuby/airb)** features a 3-part ***"trimester"*** learning style that encourages the newcomers using the program to develop methods of study and practice that will help them to develop and create any type of application they wish. The program is designed to treat prospective coders as students to be taught and trained, and also offers plenty of hand-on and real life application for important programming concepts. The program has several tracks that are setup to help new coders learn exactly what they need to know to start developing the type of content that they want.
 ##First Trimester - Learning the basics of code with Ruby
 **The first section of airb is designed to teach absolute newbies the basics of programming.**
 
